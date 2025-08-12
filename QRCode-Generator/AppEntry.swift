@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct QRCode_GeneratorApp: App {
+struct AppEntry: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreenView()
         }
     }
 }
