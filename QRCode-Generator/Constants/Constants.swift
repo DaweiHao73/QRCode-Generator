@@ -8,11 +8,20 @@
 import SwiftUI
 
 enum SFSymbol {
-    static let qrcode   = "qrcode"
-    static let text     = "text.document"
-    static let setting  = "gearshape"
-    static let download  = "square.and.arrow.down"
-    static let share     = "square.and.arrow.up"
+    static let qrcode                 = "qrcode"
+    static let text                   = "text.document"
+    static let setting                = "gearshape"
+    static let download               = "square.and.arrow.down"
+    static let share                  = "square.and.arrow.up"
+    static let handRaised             = "hand.raised"
+    static let envelope               = "envelope"
+    static let sunMax                 = "sun.max"
+    static let document               = "document"
+    static let docRichtext            = "doc.richtext"
+    static let link                   = "link"
+    static let listBulletRectangle    = "list.bullet.rectangle"
+    static let documentBadgeGearshape = "document.badge.gearshape"
+    static let globe                  = "globe"
 }
 
 enum Setting {
