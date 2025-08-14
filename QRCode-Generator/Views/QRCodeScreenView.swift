@@ -12,14 +12,14 @@ import SwiftUI
 extension QRCodeScreenView {
     
     var enterSection: some View {
-        Section("內容") {
+        Section("Content") {
             enteredTextField
         }
     }
     
     // entered TextField
     var enteredTextField: some View {
-        TextField("輸入要轉成 QR Code 的文字或網址",
+        TextField("This is the text you want to change to QR code",
                   text: $text,
                   axis: .horizontal
         )
@@ -30,7 +30,7 @@ extension QRCodeScreenView {
     
     // QR Code 設定區塊
     var settingsSection: some View {
-        Section("設定") {
+        Section("Setting") {
             correctionLevelPicker
             scaleSliderSection
         }
@@ -146,8 +146,7 @@ private struct ToastModifier: ViewModifier {
                     .background(.thinMaterial, in: Capsule())
                     .transition(.move(edge: .top).combined(with: .opacity))
                     .onAppear {
-                        // 1.2 秒後自動消失
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
+                        Task {
                             withAnimation { isPresented = false }
                         }
                     }
