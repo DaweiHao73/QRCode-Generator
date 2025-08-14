@@ -4,10 +4,31 @@
     "%lldx" : {
 
     },
-    "App 特色＆功能介紹…" : {
+    "About Us" : {
+
+    },
+    "App Feature and Function" : {
+
+    },
+    "App Setting" : {
 
     },
     "Build" : {
+
+    },
+    "Clarity (magnification)" : {
+
+    },
+    "Contact Us" : {
+
+    },
+    "Content" : {
+
+    },
+    "Dark Mode" : {
+
+    },
+    "Dawei ©️2025 Right Reserved" : {
 
     },
     "Email" : {
@@ -16,10 +37,40 @@
     "Email to support" : {
 
     },
-    "QRCode 產生器" : {
+    "Error correction" : {
 
     },
-    "QRCode產生器" : {
+    "Feature" : {
+
+    },
+    "Information" : {
+
+    },
+    "My QR Code" : {
+
+    },
+    "None Useful QR Code" : {
+
+    },
+    "Please enter correct message" : {
+
+    },
+    "Preview" : {
+
+    },
+    "Privacy Policy" : {
+
+    },
+    "QRCode Generator" : {
+
+    },
+    "Saved to Photos" : {
+
+    },
+    "Setting" : {
+
+    },
+    "Setting Page" : {
 
     },
     "Share my app" : {
@@ -28,70 +79,22 @@
     "Share QR code" : {
 
     },
-    "儲存到相簿" : {
+    "Share QRCode Image" : {
 
     },
-    "內容" : {
+    "Support" : {
 
     },
-    "分享 QR 圖片" : {
+    "This is the text you want to change to QR code" : {
 
     },
-    "分享我的App" : {
+    "Version" : {
 
     },
-    "功能介紹" : {
+    "Version Info" : {
 
     },
-    "我們是……（公司介紹內容）" : {
-
-    },
-    "我的 QR Code" : {
-
-    },
-    "沒有可用的 QR Code" : {
-
-    },
-    "清晰度（放大倍率）" : {
-
-    },
-    "版本" : {
-
-    },
-    "版本資訊" : {
-
-    },
-    "聯絡我們" : {
-
-    },
-    "設定" : {
-
-    },
-    "設定頁面" : {
-
-    },
-    "誤差修正" : {
-
-    },
-    "請輸入文字或網址" : {
-
-    },
-    "資訊" : {
-
-    },
-    "輸入要轉成 QR Code 的文字或網址" : {
-
-    },
-    "開啟" : {
-
-    },
-    "關於我們" : {
-
-    },
-    "隱私權政策" : {
-
-    },
-    "預覽" : {
+    "XXX" : {
 
     }
   },
