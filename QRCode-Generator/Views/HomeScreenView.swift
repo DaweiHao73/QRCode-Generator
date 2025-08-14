@@ -65,13 +65,21 @@ struct HomeScreenView: View {
     var body: some View {
         TabView {
             QRCodeScreenView()
-                .tabItem { Label("QRCode產生器", systemImage: SFSymbol.qrcode) }
+                .tabItem { Label("QRCode Generator", systemImage: SFSymbol.qrcode) }
             SettingView()
-                .tabItem { Label("設定", systemImage: SFSymbol.setting) }
+                .tabItem { Label("Setting", systemImage: SFSymbol.setting) }
         }
     }
 }
 
-#Preview {
-    HomeScreenView()
+struct HomeScreenView_Previews: PreviewProvider {
+    static var previews: some View {
+            HomeScreenView()
+            .previewDevice(.iPhone16Pro)
+            .previewDisplayName(PreviewDevice.iPhone16Pro.rawValue)
+
+            HomeScreenView()
+                .previewDevice(PreviewDevice.iPadPro11M4)
+                .previewDisplayName(PreviewDevice.iPadPro11M4.rawValue)
+    }
 }
